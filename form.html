@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head><html lang="ja"><title>フォームのテスト</title></head>
+<body>
+
+<form action="comfirm.html" method="post">
+	<p>
+		<label>名前：<input type="text" name="username"></label>
+	</p>
+	<p>興味のある分野【複数回答可】
+	<label><input type="checkbox" name="field" value="html">HTML</label>
+	<label><input type="checkbox" name="field" value="html">CSS</label>
+	<label><input type="checkbox" name="field" value="html">デザイン</label>
+	<label><input type="checkbox" name="field" value="html">その他</label>
+</p>
+
+
+
+	</p>
+	<p>サイトの評価：
+	<label><input type="radio" name="field" value="html">わるい</label>
+	<label><input type="radio" name="field" value="html">普通</label>
+	<label><input type="radio" name="field" value="html">よい</label>
+</p>
+
+
+	<p>お住まいの地域：
+	<select name="area">
+	<option value="hokkaido">北海道</option>
+	<option value="touhoku">東北</option>
+	<option value="kantou">関東</option>
+	<option value="chuubu">中部</option>
+	<option value="kantou">関西</option>
+	<option value="chuugoku">中国</option>
+	<option value="shikoku">四国</option>
+	<option value="kyuudhu_okinawa">九州・沖縄</option>
+	</select>
+</p>
+<p>
+	<label>コメント：
+	<textarea name="comment" cols="50" rows="10"></textarea>
+	</label>
+</p>
+<p>
+	<input type="reset" valut="リセット"><input type="submit" valut="送信">
+</p>
+</form>
+
+</body>
+</html>
